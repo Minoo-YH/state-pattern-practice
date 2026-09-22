@@ -1,5 +1,4 @@
 package state;
-import state.State;
 
 public class Machine {
 
