@@ -11,7 +11,6 @@ public class TicketSelectionState implements State {
     @Override
     public void action() {
         System.out.println("Selecting ticket");
-
-        machine.setState(new PaymentState());
+        machine.setState(new PaymentState(machine));
     }
 }
