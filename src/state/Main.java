@@ -7,5 +7,7 @@ public class Main {
         machine.action();
         machine.setState(new PaymentState());
         machine.action();
+        machine.setState(new TicketSelectionState());
+        machine.action();
     }
 }
